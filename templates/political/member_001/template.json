@@ -1,0 +1,141 @@
+
+{
+  "id": "member_001",
+  "name": "Member Poster 01",
+  "category": "Political",
+  "type": "Member",
+  "version": 1,
+  "thumbnail": "https://raw.githubusercontent.com/WsinatSoft/bangla-ai-templates/main/thumbnails/member_001.jpg",
+  "background": "https://raw.githubusercontent.com/WsinatSoft/bangla-ai-templates/main/backgrounds/member_001.jpg",
+  "canvas": {
+    "width": 1080,
+    "height": 1350,
+    "format": "jpg"
+  },
+  "fields": [
+    {
+      "id": "candidate_name",
+      "label": "প্রার্থীর নাম",
+      "type": "text",
+      "default": "আপনার নাম"
+    },
+    {
+      "id": "designation",
+      "label": "পদবি",
+      "type": "text",
+      "default": "ইউপি সদস্য পদপ্রার্থী"
+    },
+    {
+      "id": "ward",
+      "label": "ওয়ার্ড নম্বর",
+      "type": "text",
+      "default": "৩ নং ওয়ার্ড"
+    },
+    {
+      "id": "area",
+      "label": "এলাকার নাম",
+      "type": "text",
+      "default": "আপনার এলাকা"
+    },
+    {
+      "id": "slogan",
+      "label": "স্লোগান",
+      "type": "text",
+      "default": "জনগণের সেবায় সবসময়"
+    },
+    {
+      "id": "candidate_photo",
+      "label": "প্রার্থীর ছবি",
+      "type": "image",
+      "default": ""
+    }
+  ],
+  "layers": [
+    {
+      "id": "candidate_photo",
+      "type": "image",
+      "field": "candidate_photo",
+      "x": 340,
+      "y": 180,
+      "width": 400,
+      "height": 480,
+      "rotation": 0,
+      "editable": true
+    },
+    {
+      "id": "candidate_name",
+      "type": "text",
+      "field": "candidate_name",
+      "x": 100,
+      "y": 760,
+      "width": 880,
+      "height": 100,
+      "fontSize": 64,
+      "font": "NotoSansBengali",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "center",
+      "editable": true
+    },
+    {
+      "id": "designation",
+      "type": "text",
+      "field": "designation",
+      "x": 100,
+      "y": 870,
+      "width": 880,
+      "height": 75,
+      "fontSize": 42,
+      "font": "NotoSansBengali",
+      "color": "#FFD700",
+      "bold": true,
+      "alignment": "center",
+      "editable": true
+    },
+    {
+      "id": "ward",
+      "type": "text",
+      "field": "ward",
+      "x": 100,
+      "y": 970,
+      "width": 880,
+      "height": 65,
+      "fontSize": 36,
+      "font": "NotoSansBengali",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "center",
+      "editable": true
+    },
+    {
+      "id": "area",
+      "type": "text",
+      "field": "area",
+      "x": 100,
+      "y": 1050,
+      "width": 880,
+      "height": 65,
+      "fontSize": 34,
+      "font": "NotoSansBengali",
+      "color": "#FFFFFF",
+      "bold": false,
+      "alignment": "center",
+      "editable": true
+    },
+    {
+      "id": "slogan",
+      "type": "text",
+      "field": "slogan",
+      "x": 100,
+      "y": 1150,
+      "width": 880,
+      "height": 100,
+      "fontSize": 38,
+      "font": "NotoSansBengali",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "center",
+      "editable": true
+    }
+  ]
+}
