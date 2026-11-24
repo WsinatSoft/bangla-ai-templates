@@ -1,0 +1,141 @@
+
+{
+  "id": "chairman_002",
+  "name": "Chairman Poster 02",
+  "category": "Political",
+  "type": "Chairman",
+  "version": 1,
+  "thumbnail": "https://raw.githubusercontent.com/WsinatSoft/bangla-ai-templates/main/thumbnails/chairman_002.jpg",
+  "background": "https://raw.githubusercontent.com/WsinatSoft/bangla-ai-templates/main/backgrounds/chairman_002.jpg",
+  "canvas": {
+    "width": 1080,
+    "height": 1350,
+    "format": "jpg"
+  },
+  "fields": [
+    {
+      "id": "candidate_name",
+      "label": "প্রার্থীর নাম",
+      "type": "text",
+      "default": "আপনার নাম"
+    },
+    {
+      "id": "designation",
+      "label": "পদবি",
+      "type": "text",
+      "default": "চেয়ারম্যান পদপ্রার্থী"
+    },
+    {
+      "id": "union",
+      "label": "ইউনিয়নের নাম",
+      "type": "text",
+      "default": "আপনার ইউনিয়ন"
+    },
+    {
+      "id": "area",
+      "label": "এলাকার নাম",
+      "type": "text",
+      "default": "আপনার এলাকা"
+    },
+    {
+      "id": "slogan",
+      "label": "স্লোগান",
+      "type": "text",
+      "default": "সবার সহযোগিতায় এলাকার উন্নয়ন"
+    },
+    {
+      "id": "candidate_photo",
+      "label": "প্রার্থীর ছবি",
+      "type": "image",
+      "default": ""
+    }
+  ],
+  "layers": [
+    {
+      "id": "candidate_photo",
+      "type": "image",
+      "field": "candidate_photo",
+      "x": 250,
+      "y": 100,
+      "width": 580,
+      "height": 590,
+      "rotation": 0,
+      "editable": true
+    },
+    {
+      "id": "candidate_name",
+      "type": "text",
+      "field": "candidate_name",
+      "x": 60,
+      "y": 720,
+      "width": 960,
+      "height": 110,
+      "fontSize": 70,
+      "font": "NotoSansBengali",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "center",
+      "editable": true
+    },
+    {
+      "id": "designation",
+      "type": "text",
+      "field": "designation",
+      "x": 60,
+      "y": 840,
+      "width": 960,
+      "height": 80,
+      "fontSize": 46,
+      "font": "NotoSansBengali",
+      "color": "#FFD700",
+      "bold": true,
+      "alignment": "center",
+      "editable": true
+    },
+    {
+      "id": "union",
+      "type": "text",
+      "field": "union",
+      "x": 80,
+      "y": 950,
+      "width": 920,
+      "height": 70,
+      "fontSize": 40,
+      "font": "NotoSansBengali",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "center",
+      "editable": true
+    },
+    {
+      "id": "area",
+      "type": "text",
+      "field": "area",
+      "x": 80,
+      "y": 1030,
+      "width": 920,
+      "height": 65,
+      "fontSize": 34,
+      "font": "NotoSansBengali",
+      "color": "#FFFFFF",
+      "bold": false,
+      "alignment": "center",
+      "editable": true
+    },
+    {
+      "id": "slogan",
+      "type": "text",
+      "field": "slogan",
+      "x": 70,
+      "y": 1140,
+      "width": 940,
+      "height": 120,
+      "fontSize": 38,
+      "font": "NotoSansBengali",
+      "color": "#FFFFFF",
+      "bold": true,
+      "alignment": "center",
+      "editable": true
+    }
+  ]
+}
