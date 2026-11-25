@@ -5,8 +5,8 @@
   "category": "Political",
   "type": "Member",
   "version": 1,
-  "thumbnail": "https://raw.githubusercontent.com/WsinatSoft/bangla-ai-templates/main/thumbnails/member_001.jpg",
-  "background": "https://raw.githubusercontent.com/WsinatSoft/bangla-ai-templates/main/backgrounds/member_001.jpg",
+  "thumbnail": "https://raw.githubusercontent.com/WsinatSoft/bangla-ai-templates/main/thumbnails/member_001.png",
+  "background": "https://raw.githubusercontent.com/WsinatSoft/bangla-ai-templates/main/backgrounds/member_001.png",
   "canvas": {
     "width": 1080,
     "height": 1350,
