@@ -1,1 +1,68 @@
-
+{
+  "categories": [
+    {
+      "id": "morning",
+      "name": "সকালের শুভেচ্ছা",
+      "images": [
+        "morning/morning_001.jpg",
+        "morning/morning_002.jpg",
+        "morning/morning_003.jpg"
+      ]
+    },
+    {
+      "id": "afternoon",
+      "name": "দুপুরের শুভেচ্ছা",
+      "images": []
+    },
+    {
+      "id": "evening",
+      "name": "বিকেলের শুভেচ্ছা",
+      "images": []
+    },
+    {
+      "id": "night",
+      "name": "সন্ধ্যা ও রাত",
+      "images": []
+    },
+    {
+      "id": "emotional",
+      "name": "আবেগময়",
+      "images": []
+    },
+    {
+      "id": "motivational",
+      "name": "অনুপ্রেরণামূলক",
+      "images": []
+    },
+    {
+      "id": "funny",
+      "name": "মজার পোস্ট",
+      "images": []
+    },
+    {
+      "id": "islamic",
+      "name": "ইসলামিক",
+      "images": []
+    },
+    {
+      "id": "love",
+      "name": "ভালোবাসা",
+      "images": []
+    },
+    {
+      "id": "attitude",
+      "name": "অ্যাটিটিউড",
+      "images": []
+    },
+    {
+      "id": "friendship",
+      "name": "বন্ধুত্ব",
+      "images": []
+    },
+    {
+      "id": "nature",
+      "name": "প্রকৃতি",
+      "images": []
+    }
+  ]
+}
